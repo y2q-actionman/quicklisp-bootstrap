@@ -78,6 +78,7 @@
   (:use #:cl #:qlqs-impl #:qlqs-impl-util #:qlqs-http #:qlqs-minitar)
   (:export #:install
            #:help
+           #:load-setup
            #:*proxy-url*
            #:*asdf-url*
            #:*quicklisp-tar-url*
